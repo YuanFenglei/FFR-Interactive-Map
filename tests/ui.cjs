@@ -8,6 +8,7 @@ const errors=[];
 const vc=new VirtualConsole();vc.on('jsdomError',e=>errors.push(e));
 const dom=new JSDOM(fs.readFileSync(path.join(root,'index.html'),'utf8'),{url:'https://example.test/',runScripts:'dangerously',pretendToBeVisual:true,virtualConsole:vc,beforeParse(w){
   w.TextDecoder=TextDecoder;w.TextEncoder=TextEncoder;
+  w.scrollTo=()=>{};w.HTMLElement.prototype.scrollIntoView=function(){};
   w.ResizeObserver=class{observe(){}disconnect(){}};
   w.HTMLDialogElement.prototype.showModal=function(){this.open=true;};
   w.HTMLDialogElement.prototype.close=function(){this.open=false;};
@@ -27,6 +28,9 @@ assert.match($('skill-rows').textContent,/无念无想/);assert.doesNotMatch($('
 set('skill-kind','共鸣');assert.match($('skill-rows').textContent,/没有匹配/);
 $('skill-reset').click();set('skill-kind','共鸣');assert.match($('skill-count').textContent,/26 \/ 476/);
 set('skill-kind','主动');set('skill-sort','power');assert.match($('skill-count').textContent,/233 \/ 476/);
+$('skill-reset').click();set('skill-query','暗无效','input');set('skill-vision','13100');assert.match($('skill-rows').textContent,/本体绑定/);assert.doesNotMatch($('skill-rows').textContent,/30 AP/);
+set('skill-vision','13103');assert.match($('skill-rows').textContent,/30 AP/);
+$('skill-reset').click();set('skill-query','暴击提升20%','input');set('skill-source','觉醒');assert.match($('skill-rows').textContent,/本体绑定/);assert.doesNotMatch($('skill-rows').textContent,/熟练3/);
 const ranks=JSON.parse(fs.readFileSync(path.join(root,'data/rankings.json'),'utf8'));
 ranks.forEach((r,i)=>{set('rank-select',String(i));assert.equal($('rank-table').querySelectorAll('tbody tr').length,r.rows.length);});
 set('rank-query','没有这个技能','input');assert.match($('rank-table').textContent,/没有匹配/);set('rank-query','','input');

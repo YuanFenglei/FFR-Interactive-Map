@@ -1069,13 +1069,23 @@ totals();setMap(current);
     el('notice').hidden=name!=='map';
     if(name==='map')requestAnimationFrame(()=>{fit();renderPoints();});
     if(name==='skills'&&params.has('vision')){el('skill-vision').value=params.get('vision');el('skill-query').value='';el('skill-kind').value='';el('skill-source').value='';skillPage=0;renderSkills();}
+    window.scrollTo(0,0);
   }
   window.addEventListener('hashchange',page);
   for(const v of [...HUB.visions].sort((a,b)=>a.name.localeCompare(b.name,'zh-CN')))el('skill-vision').add(new Option(v.name,String(v.id)));
+  function selectedOrigins(s){
+    const vision=el('skill-vision').value,source=el('skill-source').value;
+    return s.origins.filter(o=>(!vision||String(o.visionId)===vision)&&(!source||o.sources.some(x=>x.startsWith(source))));
+  }
+  function selectedAP(s){
+    if(el('skill-source').value&&el('skill-source').value!=='熟练')return null;
+    const fees=selectedOrigins(s).map(o=>o.ap).filter(v=>v!=null);
+    return fees.length?Math.min(...fees):null;
+  }
   function filterSkills(){
     const q=el('skill-query').value.trim(),vision=el('skill-vision').value,kind=el('skill-kind').value,source=el('skill-source').value;
     const sort=el('skill-sort').value;
-    return skills.filter(s=>(!kind||s.kind===kind)&&(!q||has([s.name,s.id,s.description,s.group,...s.origins.map(o=>o.vision)].join(' '),q))&&s.origins.some(o=>(!vision||String(o.visionId)===vision)&&(!source||o.sources.some(x=>x.startsWith(source))))).sort((a,b)=>sort==='name'?a.name.localeCompare(b.name,'zh-CN'):sort==='ap'?(a.ap??Infinity)-(b.ap??Infinity):((b[sort]??-Infinity)-(a[sort]??-Infinity)));
+    return skills.filter(s=>(!kind||s.kind===kind)&&(!q||has([s.name,s.id,s.description,s.group,...s.origins.map(o=>o.vision)].join(' '),q))&&s.origins.some(o=>(!vision||String(o.visionId)===vision)&&(!source||o.sources.some(x=>x.startsWith(source))))).sort((a,b)=>sort==='name'?a.name.localeCompare(b.name,'zh-CN'):sort==='ap'?(selectedAP(a)??Infinity)-(selectedAP(b)??Infinity):((b[sort]??-Infinity)-(a[sort]??-Infinity)));
   }
   function renderSkills(){
     filteredSkills=filterSkills();
@@ -1083,7 +1093,7 @@ totals();setMap(current);
     el('skill-count').textContent=`找到 ${filteredSkills.length} / ${skills.length} 个去重技能`;
     el('skill-page').textContent=`${skillPage+1} / ${pages}`;
     el('skill-prev').disabled=skillPage===0;el('skill-next').disabled=skillPage>=pages-1;
-    el('skill-rows').innerHTML=filteredSkills.slice(skillPage*30,skillPage*30+30).map(s=>`<tr><td><button class="skill-name" data-skill="${esc(s.kind+':'+s.id)}">${esc(s.name)}</button><small>#${s.id}</small></td><td><span class="tag">${s.kind}</span>${s.kind==='主动'?esc(tr(s.category)):''}<small>${esc(s.origins.filter(o=>!el('skill-vision').value||String(o.visionId)===el('skill-vision').value).map(o=>o.vision+' · '+o.sources.join(' / ')).join('；'))}</small></td><td class="numeric">${s.ap==null?'本体绑定':s.ap+' AP'}</td><td class="numeric">${s.kind==='被动'?'—':val(s.power)+' / '+val(s.breakValue)}</td><td>${esc(s.description)}</td></tr>`).join('')||'<tr><td colspan="5" class="empty-message">没有匹配技能。试试清空筛选或缩短关键词。</td></tr>';
+    el('skill-rows').innerHTML=filteredSkills.slice(skillPage*30,skillPage*30+30).map(s=>`<tr><td><button class="skill-name" data-skill="${esc(s.kind+':'+s.id)}">${esc(s.name)}</button><small>#${s.id}</small></td><td><span class="tag">${s.kind}</span>${s.kind==='主动'?esc(tr(s.category)):''}<small>${esc(selectedOrigins(s).map(o=>o.vision+' · '+o.sources.filter(x=>!el('skill-source').value||x.startsWith(el('skill-source').value)).join(' / ')).join('；'))}</small></td><td class="numeric">${selectedAP(s)==null?'本体绑定':selectedAP(s)+' AP'}</td><td class="numeric">${s.kind==='被动'?'—':val(s.power)+' / '+val(s.breakValue)}</td><td>${esc(s.description)}</td></tr>`).join('')||'<tr><td colspan="5" class="empty-message">没有匹配技能。试试清空筛选或缩短关键词。</td></tr>';
     el('skill-rows').querySelectorAll('[data-skill]').forEach(b=>b.onclick=()=>showSkill(grouped.get(b.dataset.skill)));
   }
   function showSkill(s){
@@ -1094,7 +1104,7 @@ totals();setMap(current);
   el('skill-dialog-close').onclick=()=>el('skill-dialog').close();
   for(const id of ['skill-query','skill-vision','skill-kind','skill-source','skill-sort'])el(id).addEventListener(id==='skill-query'?'input':'change',()=>{skillPage=0;renderSkills();});
   el('skill-reset').onclick=()=>{for(const id of ['skill-query','skill-vision','skill-kind','skill-source'])el(id).value='';el('skill-sort').value='name';skillPage=0;renderSkills();};
-  el('skill-prev').onclick=()=>{skillPage--;renderSkills();};el('skill-next').onclick=()=>{skillPage++;renderSkills();};
+  el('skill-prev').onclick=()=>{skillPage--;renderSkills();el('skill-count').scrollIntoView({block:'start'});};el('skill-next').onclick=()=>{skillPage++;renderSkills();el('skill-count').scrollIntoView({block:'start'});};
   HUB.rankings.forEach((r,i)=>el('rank-select').add(new Option(clean(r.title),i)));
   el('rank-select').value=String(Math.max(0,HUB.rankings.findIndex(r=>r.title.startsWith('表9'))));
   function renderRank(){
