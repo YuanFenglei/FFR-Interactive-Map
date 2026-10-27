@@ -1,0 +1,15 @@
+# Local progress and private analysis must never be published.
+*.sav
+*.sav.*
+*save*.json
+*存档*.json
+*核验记录*.json
+work/
+_local/
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.log
+*.bak

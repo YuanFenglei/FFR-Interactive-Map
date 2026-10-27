@@ -1,0 +1,35 @@
+<nav class="hub-nav" aria-label="主导航">
+  <a href="#map" data-page="map"><span>01</span>交互地图</a>
+  <a href="#skills" data-page="skills"><span>02</span>技能速查</a>
+  <a href="#rankings" data-page="rankings"><span>03</span>技能排行</a>
+  <a href="#builds" data-page="builds"><span>04</span>拉斯韦尔配装</a>
+  <a href="#visions" data-page="visions"><span>05</span>幻兵评价</a>
+  <span class="nav-tail">离线可用 <i></i></span>
+</nav>
+<!--MAP-->
+<section id="page-skills" class="hub-page" hidden aria-labelledby="skills-heading">
+  <div class="page-intro"><div><div class="eyebrow">THE ABILITY ARCHIVE</div><h2 id="skills-heading">每一份力量，<em>有据可查。</em></h2><p>26名幻兵 · 217个被动 · 233个主动＋26个共鸣。按技能ID合并，共享技能保留全部来源。</p></div><div class="intro-number">476<small>去重技能</small></div></div>
+  <div class="control-panel"><label class="search-field"><span>⌕</span><input id="skill-query" type="search" placeholder="技能、幻兵、ID、效果关键词…" aria-label="搜索技能"></label><div class="filter-row"><label>幻兵<select id="skill-vision"><option value="">全部幻兵</option></select></label><label>类别<select id="skill-kind"><option value="">全部类别</option><option>被动</option><option>主动</option><option>共鸣</option></select></label><label>来源<select id="skill-source"><option value="">全部来源</option><option>熟练</option><option>觉醒</option><option>幻兵本体共鸣</option></select></label><label>排序<select id="skill-sort"><option value="name">名称</option><option value="ap">继承AP ↑</option><option value="power">原始威力 ↓</option><option value="breakValue">原始破防 ↓</option></select></label><button id="skill-reset">重置筛选</button></div></div>
+  <div class="section-meta"><span id="skill-count" role="status"></span><span>点选技能查看数值、效果参数与全部来源</span></div>
+  <p class="callout">主幻兵已习得熟练技自动生效，不占继承AP；觉醒 / 共鸣本体绑定。威力、破防均为原始配置，不等于实战伤害；治疗等特殊招式不可按威力直接比较输出。</p>
+  <div class="table-wrap"><table class="data-table"><thead><tr><th>技能 / ID</th><th>类别 · 来源</th><th>继承AP</th><th>威力 / 破防</th><th>效果摘要</th></tr></thead><tbody id="skill-rows"></tbody></table></div><div class="pagination"><button id="skill-prev">← 上一页</button><span id="skill-page"></span><button id="skill-next">下一页 →</button></div>
+</section>
+<section id="page-rankings" class="hub-page" hidden aria-labelledby="rank-heading">
+  <div class="page-intro"><div><div class="eyebrow">POWER, WITH CONTEXT</div><h2 id="rank-heading">数值有高低，<em>收益看条件。</em></h2><p>按乘区、触发条件和AP效率比较。理论上限与短战收益分开阅读。</p></div><div class="intro-number">A / P<small>同区加算 · 异区相乘</small></div></div>
+  <div class="zone-grid"><div><b>A</b><span>普通增伤</span><small>扣生命伤害</small></div><div><b>B</b><span>破防增伤</span><small>削减破防槽</small></div><div><b>P / PB</b><span>基础倍率</span><small>分别作用于普通 / 破防</small></div><div><b>BF</b><span>破防固定值</span><small>不是百分比</small></div></div>
+  <div class="control-panel filter-row"><label class="grow">选择榜单<select id="rank-select"></select></label><label class="grow">查找条目<input id="rank-query" type="search" placeholder="技能或条件关键词" aria-label="搜索榜单"></label></div>
+  <h3 id="rank-title"></h3><p id="rank-intro" class="callout"></p><div id="rank-table" class="table-wrap"></div><div id="rank-notes" class="reading-note"></div>
+  <details class="formula"><summary>打开乘区示例计算器</summary><p>只演示同区加算关系；不含敌防、抗性、暴击、取整与限伤。</p><div class="filter-row"><label>已有A（%）<input id="calc-a" type="number" min="0" max="1000" value="50"></label><label>新增A（%）<input id="calc-add" type="number" min="0" max="1000" value="30"></label><label>P（%）<input id="calc-p" type="number" min="0" max="1000" value="50"></label><output id="calc-result"></output></div></details>
+</section>
+<section id="page-builds" class="hub-page" hidden aria-labelledby="build-heading">
+  <div class="page-intro"><div><div class="eyebrow">LASSWELL / FIELD MANUAL</div><h2 id="build-heading">从位移进攻，<em>到明镜连击。</em></h2><p>第5章前可实现的方案与终盘目标分开规划。先学会技能，再核算AP与栏位。</p></div></div>
+  <div id="build-tabs" class="segmented" aria-label="选择配装阶段"></div><div id="build-content"></div>
+</section>
+<section id="page-visions" class="hub-page" hidden aria-labelledby="vision-heading">
+  <div class="page-intro"><div><div class="eyebrow">THE VISION COMPENDIUM</div><h2 id="vision-heading">找到你的<em>下一位伙伴。</em></h2><p>26名幻兵的继承价值、养成停点与适用条件。评价分不是实测DPS；排名靠后不代表主幻兵弱。</p></div><div class="intro-number">26<small>幻兵档案</small></div></div>
+  <div class="control-panel filter-row"><label class="grow">搜索幻兵 / 技能<input id="vision-query" type="search" placeholder="名称、核心技能或职责关键词"></label><label>评级<select id="vision-tier"><option value="">全部评级</option><option>S</option><option>A</option><option>B</option><option>C</option></select></label><label>排序<select id="vision-sort"><option value="score">综合分 ↓</option><option value="body">主幻兵本体分 ↓</option><option value="training">养成便利分 ↓</option></select></label></div>
+  <details class="formula"><summary>评分规则与AP养成计算器</summary><p>总分＝关键性×5＋AP效率×3＋覆盖×3＋行动×3＋养成×2＋本体×3＋打包。各项0～5分。S≥85、A≥75、B≥65、C＜65；继承相关项85分，本体15分。限伤、治疗与存活需求优先于分数。</p><div class="filter-row"><label>至少熟练4的人数<input id="ap-four" type="number" min="0" max="26" value="26"></label><label>其中熟练9的人数<input id="ap-nine" type="number" min="0" max="26" value="6"></label><output id="ap-result"></output></div><p>同一角色：100＋8×熟练4人数＋8×熟练9人数。9级人数已包含在4级人数中。</p></details>
+  <div id="vision-count" class="section-meta" role="status"></div><div id="vision-cards" class="vision-grid"></div>
+</section>
+<footer class="hub-footer"><span>◇ FFR 共鸣手册</span><span>Steam build 24250053 · 静态数据核验 · 非官方工具</span><span>存档仅在内存中读取，不上传、不保存</span></footer>
+<dialog id="skill-dialog" aria-labelledby="skill-dialog-title"><button id="skill-dialog-close" class="dialogclose" aria-label="关闭技能详情">关闭 ×</button><div id="skill-detail-content"></div></dialog>

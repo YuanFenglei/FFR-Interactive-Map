@@ -1,0 +1,15 @@
+{
+  "build": "24250053",
+  "date": "2026-10-27",
+  "source_sha256": {
+    "DT_VisionItemData": "68e3f2aa4835594d5b1f4a4991e3e7d23db8fcbee3264ccc3b25b679c97896b0",
+    "DT_VisionSynchroMasteryData": "65e67d461baeb3f0bf1cf26b9c1bfe5569f6ad0c899f3ad0e36d3dee748bbb9d",
+    "DT_VisionAwakeningMasteryData": "72be9568289beea54d93a3160e855e36dda270a3cab8ceb49ce1d6bfcdd08559",
+    "DT_MasterSkillData": "e172b9bd01d9d1e8a9f0801f48aa058dd67c3580c8a7f3e85662a64ba262d1fd",
+    "DT_PassiveSkillData": "9ea11a5a0b50e21b19f9098b0577e43b2eec926d89c358cf8e26d1bd47998e92",
+    "DT_SkillData": "480f40517c2e4fa77a698d2d30fcea9865aac0983125a47e8f94f975a39a0fd0",
+    "DT_SkillEffectData": "e2ae8830232af10dc05659d1dfe75802839c2d3ec06262a9e6c5f99566a68fdb",
+    "DT_SkillDamageCalcData": "01093796b18ed4b04c06c487b96bddbb33b09399eda07a7d19c8c5b1ddb07a0e"
+  },
+  "method": "静态配置与原生结算核验；未执行实战伤害测试"
+}

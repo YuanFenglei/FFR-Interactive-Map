@@ -1,0 +1,58 @@
+// Optional DOM regression tests. Install jsdom 29.1.1 in your test environment.
+const {JSDOM,VirtualConsole}=require('jsdom');
+const fs=require('node:fs');
+const path=require('node:path');
+const assert=require('node:assert/strict');
+const root=path.resolve(__dirname,'..');
+const errors=[];
+const vc=new VirtualConsole();vc.on('jsdomError',e=>errors.push(e));
+const dom=new JSDOM(fs.readFileSync(path.join(root,'index.html'),'utf8'),{url:'https://example.test/',runScripts:'dangerously',pretendToBeVisual:true,virtualConsole:vc,beforeParse(w){
+  w.TextDecoder=TextDecoder;w.TextEncoder=TextEncoder;
+  w.ResizeObserver=class{observe(){}disconnect(){}};
+  w.HTMLDialogElement.prototype.showModal=function(){this.open=true;};
+  w.HTMLDialogElement.prototype.close=function(){this.open=false;};
+}});
+const w=dom.window,d=w.document,$=id=>d.getElementById(id);
+const set=(id,value,event='change')=>{$(id).value=value;$(id).dispatchEvent(new w.Event(event,{bubbles:true}));};
+const hash=s=>{w.location.hash=s;w.dispatchEvent(new w.HashChangeEvent('hashchange'));};
+assert.equal(errors.length,0,errors.map(e=>e.message).join('\n'));
+assert.match($('skill-count').textContent,/476/);
+set('skill-query','无念无想','input');assert.equal($('skill-rows').children.length,1);
+$('skill-rows').querySelector('button').click();assert.equal($('skill-dialog').open,true);assert.match($('skill-detail-content').textContent,/20/);$('skill-dialog-close').click();
+set('skill-query','1493','input');assert.match($('skill-rows').textContent,/无念无想/);
+set('skill-query','没有这个技能','input');assert.match($('skill-rows').textContent,/没有匹配/);
+$('skill-reset').click();$('skill-next').click();assert.equal($('skill-page').textContent,'2 / 16');$('skill-prev').click();
+hash('skills&vision=13113');set('skill-source','熟练');
+assert.match($('skill-rows').textContent,/无念无想/);assert.doesNotMatch($('skill-rows').textContent,/始终勇气/);
+set('skill-kind','共鸣');assert.match($('skill-rows').textContent,/没有匹配/);
+$('skill-reset').click();set('skill-kind','共鸣');assert.match($('skill-count').textContent,/26 \/ 476/);
+set('skill-kind','主动');set('skill-sort','power');assert.match($('skill-count').textContent,/233 \/ 476/);
+const ranks=JSON.parse(fs.readFileSync(path.join(root,'data/rankings.json'),'utf8'));
+ranks.forEach((r,i)=>{set('rank-select',String(i));assert.equal($('rank-table').querySelectorAll('tbody tr').length,r.rows.length);});
+set('rank-query','没有这个技能','input');assert.match($('rank-table').textContent,/没有匹配/);set('rank-query','','input');
+hash('builds');assert.match($('build-total').textContent,/145 AP \/ 7栏/);
+set('build-budget','100','input');assert.match($('build-total').textContent,/超出 45/);
+$('build-tabs').querySelector('[data-build="1"]').click();assert.match($('build-total').textContent,/320 AP \/ 8栏/);
+$('build-content').querySelector('[data-slot="3"]').click();assert.match($('build-total').textContent,/300 AP \/ 7栏/);
+$('build-restore').click();assert.match($('build-total').textContent,/320 AP \/ 8栏/);
+set('ap-four','26','input');set('ap-nine','26','input');assert.equal($('ap-result').textContent,'516 AP');
+set('ap-four','2','input');assert.match($('ap-result').textContent,/不能多于/);
+set('ap-four','26','input');set('ap-nine','6','input');assert.equal($('ap-result').textContent,'356 AP');
+set('calc-a','50','input');set('calc-add','30','input');set('calc-p','50','input');assert.match($('calc-result').textContent,/2.700.*20.0%/);
+set('vision-tier','S');assert.equal($('vision-cards').children.length,3);
+set('vision-tier','');set('vision-query','诺克提斯','input');assert.equal($('vision-cards').children.length,1);
+$('vision-cards').querySelector('button').click();w.dispatchEvent(new w.HashChangeEvent('hashchange'));assert.equal($('skill-vision').value,'13128');
+hash('map');assert.equal($('page-map').hidden,false);assert.equal($('page-skills').hidden,true);
+let mapChecks=0,layerChecks=0;
+for(const btn of [...$('mapList').querySelectorAll('button')]){btn.click();mapChecks++;for(const option of [...$('layer').options]){set('layer',option.value);layerChecks++;assert.ok($('tiles').children.length>0);}}
+assert.equal(mapChecks,64);assert.ok(layerChecks>64);
+set('search','不可能存在的地图','input');assert.equal($('mapList').querySelectorAll('button').length,0);set('search','','input');
+set('region','Grandshelt');assert.ok($('mapList').querySelectorAll('button').length>0);set('region','');
+$('pointList').querySelector('button').click();assert.equal($('detail').hidden,false);
+$('chests').click();assert.ok([...$('pointList').querySelectorAll('button')].every(b=>!b.textContent.includes('宝箱')));$('chests').click();
+// Malformed input must be rejected without needing a private save fixture.
+assert.throws(()=>w.decodeSave(new Uint8Array(4),{}));
+$('clear').click();assert.match($('saveName').textContent,/未加载存档/);
+assert.equal(errors.length,0,errors.map(e=>e.message).join('\n'));
+console.log(`PASS: search/filter/sort/details/pagination, rankings, build budgets, AP/formula, vision links, ${mapChecks} maps / ${layerChecks} layer views, malformed save and clear`);
+w.close();
