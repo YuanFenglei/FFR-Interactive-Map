@@ -710,7 +710,14 @@
         "timing": "AddEffect",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "光之战士",
@@ -769,7 +776,14 @@
     ],
     "accuracy": 100,
     "critical": 0,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "光之战士",
@@ -852,7 +866,14 @@
         "timing": "None",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "光之战士",
@@ -911,7 +932,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "光之战士",
@@ -970,7 +998,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "光之战士",
@@ -1029,7 +1064,14 @@
     ],
     "accuracy": 100,
     "critical": 0,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "光之战士",
@@ -1112,7 +1154,14 @@
         "timing": "None",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "光之战士",
@@ -1171,7 +1220,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "光之战士",
@@ -1230,7 +1286,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "光之战士",
@@ -1336,7 +1399,14 @@
         "timing": "DamageCalculation",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "光之战士",
@@ -1419,7 +1489,14 @@
         "timing": "ActionBegin",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "光之战士",
@@ -1478,7 +1555,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "光之战士",
@@ -1537,7 +1621,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "光之战士",
@@ -1620,7 +1711,14 @@
         "timing": "AddEffect",
         "turns": 4
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "光之战士",
@@ -1679,7 +1777,14 @@
     ],
     "accuracy": 100,
     "critical": 0,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "光之战士",
@@ -1762,7 +1867,14 @@
         "timing": "None",
         "turns": 2
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "光之战士",
@@ -1914,7 +2026,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "弗利奥尼尔",
@@ -2479,7 +2598,14 @@
         "timing": "BreakDmgCalculation",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "弗利奥尼尔",
@@ -2538,7 +2664,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "弗利奥尼尔",
@@ -2597,7 +2730,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "弗利奥尼尔",
@@ -2680,7 +2820,14 @@
         "timing": "ActionBegin",
         "turns": 2
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "弗利奥尼尔",
@@ -2739,7 +2886,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "弗利奥尼尔",
@@ -2798,7 +2952,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "弗利奥尼尔",
@@ -2881,7 +3042,14 @@
         "timing": "None",
         "turns": 2
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "弗利奥尼尔",
@@ -2940,7 +3108,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "弗利奥尼尔",
@@ -2999,7 +3174,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "弗利奥尼尔",
@@ -3058,7 +3240,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "弗利奥尼尔",
@@ -3141,7 +3330,14 @@
         "timing": "None",
         "turns": -1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "弗利奥尼尔",
@@ -3224,7 +3420,14 @@
         "timing": "BreakDmgCalculation",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "弗利奥尼尔",
@@ -3307,7 +3510,14 @@
         "timing": "ActionBegin",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "弗利奥尼尔",
@@ -3366,7 +3576,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "弗利奥尼尔",
@@ -3425,7 +3642,16 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [
+      "FoundSkillInHierarchy"
+    ],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "弗利奥尼尔",
@@ -3531,7 +3757,14 @@
         "timing": "SkillEnd",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "洋葱剑士",
@@ -4151,7 +4384,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "洋葱剑士",
@@ -4210,7 +4450,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "洋葱剑士",
@@ -4269,7 +4516,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "洋葱剑士",
@@ -4328,7 +4582,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "洋葱剑士",
@@ -4387,7 +4648,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "洋葱剑士",
@@ -4446,7 +4714,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "洋葱剑士",
@@ -4505,7 +4780,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "洋葱剑士",
@@ -4564,7 +4846,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "洋葱剑士",
@@ -4623,7 +4912,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "洋葱剑士",
@@ -4682,7 +4978,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "洋葱剑士",
@@ -4741,7 +5044,14 @@
     ],
     "accuracy": 100,
     "critical": 0,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "洋葱剑士",
@@ -4800,7 +5110,14 @@
     ],
     "accuracy": 500,
     "critical": 1,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "洋葱剑士",
@@ -4859,7 +5176,14 @@
     ],
     "accuracy": 100,
     "critical": 1,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "洋葱剑士",
@@ -4965,7 +5289,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "塞西尔",
@@ -5580,7 +5911,14 @@
     ],
     "accuracy": 100,
     "critical": 0,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "塞西尔",
@@ -5663,7 +6001,14 @@
         "timing": "None",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "塞西尔",
@@ -5722,7 +6067,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "塞西尔",
@@ -5781,7 +6133,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "塞西尔",
@@ -5840,7 +6199,14 @@
     ],
     "accuracy": 100,
     "critical": 0,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "塞西尔",
@@ -5923,7 +6289,14 @@
         "timing": "None",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "塞西尔",
@@ -5982,7 +6355,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "塞西尔",
@@ -6041,7 +6421,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "塞西尔",
@@ -6100,7 +6487,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "塞西尔",
@@ -6159,7 +6553,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "塞西尔",
@@ -6242,7 +6643,14 @@
         "timing": "None",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "塞西尔",
@@ -6301,7 +6709,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "塞西尔",
@@ -6360,7 +6775,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "塞西尔",
@@ -6443,7 +6865,14 @@
         "timing": "None",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "塞西尔",
@@ -6502,7 +6931,14 @@
     ],
     "accuracy": 100,
     "critical": 1,
-    "effects": []
+    "effects": [],
+    "costType": "HPRatio",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "塞西尔",
@@ -6585,7 +7021,14 @@
         "timing": "None",
         "turns": 2
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "塞西尔",
@@ -6691,7 +7134,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "巴兹",
@@ -7209,7 +7659,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "巴兹",
@@ -7268,7 +7725,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "巴兹",
@@ -7327,7 +7791,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "巴兹",
@@ -7410,7 +7881,14 @@
         "timing": "None",
         "turns": 2
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "巴兹",
@@ -7469,7 +7947,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "巴兹",
@@ -7528,7 +8013,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "巴兹",
@@ -7587,7 +8079,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "巴兹",
@@ -7670,7 +8169,14 @@
         "timing": "None",
         "turns": 2
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "巴兹",
@@ -7729,7 +8235,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "巴兹",
@@ -7788,7 +8301,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "巴兹",
@@ -7847,7 +8367,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "巴兹",
@@ -7906,7 +8433,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "巴兹",
@@ -7989,7 +8523,18 @@
         "timing": "AddEffect",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [
+      "FoundSkillInHierarchy",
+      "ExPhase",
+      "FoundSkillInHierarchy"
+    ],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "巴兹",
@@ -8048,7 +8593,16 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [
+      "FoundSkillInHierarchy"
+    ],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "巴兹",
@@ -8131,7 +8685,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "蒂娜",
@@ -8751,7 +9312,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "蒂娜",
@@ -8810,7 +9378,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "蒂娜",
@@ -8869,7 +9444,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "蒂娜",
@@ -8952,7 +9534,14 @@
         "timing": "ActionBegin",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "蒂娜",
@@ -9011,7 +9600,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "蒂娜",
@@ -9070,7 +9666,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "蒂娜",
@@ -9129,7 +9732,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "蒂娜",
@@ -9212,7 +9822,14 @@
         "timing": "None",
         "turns": -1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "蒂娜",
@@ -9271,7 +9888,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "蒂娜",
@@ -9330,7 +9954,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "蒂娜",
@@ -9389,7 +10020,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "蒂娜",
@@ -9448,7 +10086,14 @@
     ],
     "accuracy": 500,
     "critical": 1,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "蒂娜",
@@ -9507,7 +10152,14 @@
     ],
     "accuracy": 500,
     "critical": 1,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "蒂娜",
@@ -9613,7 +10265,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "蒂娜",
@@ -9696,7 +10355,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "克劳德",
@@ -10316,7 +10982,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "克劳德",
@@ -10375,7 +11048,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "克劳德",
@@ -10458,7 +11138,14 @@
         "timing": "AddEffect",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "克劳德",
@@ -10541,7 +11228,14 @@
         "timing": "DamageCalculation",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "克劳德",
@@ -10624,7 +11318,14 @@
         "timing": "CriticalCalculation",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "克劳德",
@@ -10683,7 +11384,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "克劳德",
@@ -10742,7 +11450,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "克劳德",
@@ -10825,7 +11540,14 @@
         "timing": "DamageCalculation",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "克劳德",
@@ -10908,7 +11630,14 @@
         "timing": "DamageCalculationOnBreak",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "克劳德",
@@ -10967,7 +11696,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "克劳德",
@@ -11026,7 +11762,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "克劳德",
@@ -11109,7 +11852,14 @@
         "timing": "None",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "克劳德",
@@ -11168,7 +11918,14 @@
     ],
     "accuracy": 50,
     "critical": 100,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "克劳德",
@@ -11251,7 +12008,14 @@
         "timing": "AddEffect",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "克劳德",
@@ -11357,7 +12121,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "斯考尔",
@@ -11623,7 +12394,7 @@
     "sources": [
       "觉醒4"
     ],
-    "description": "剩余生命值越少，“战斗”与特技的伤害与破防伤害越高。补充：每损失完整1%生命，普通伤害与破防伤害分别增加1%（A/B区）。代码先将损失百分比截断为整数；50%生命时为+50%，正常存活且无超额生命时最多接近+99%，不是直接翻倍。",
+    "description": "仅角色平A/指定特技名单适用。每损失完整1%生命，A/B各＋1%；50%生命时＋50%，正常存活时最多接近99%。名单外明镜、位移、强行分离不受该低血加成。",
     "original": "剩余生命值越少，“战斗”与特技的伤害与破防伤害越高",
     "group": "A：普通增伤，同区加算；B：破防增伤，同区加算",
     "ap": null,
@@ -11748,7 +12519,7 @@
     "sources": [
       "熟练1"
     ],
-    "description": "战斗时使用“战斗”或特技的次数越多，伤害与破防伤害就越高\n提升上限为1.5倍。补充：每个被记录的“战斗”/特技使用次数提供10%普通伤害与10%破防伤害加成，5次达到50%上限；分别进入A/B区。当前这次攻击何时记入计数，未作实战确认。",
+    "description": "平A/指定名单招式正常结束后计数＋1，每次A/B各＋10%，5次封顶50%；不是全部Ability。辅助不清层；普通反击不加层但可享受已有加成。双剑之舞＋2，双强行分离/明镜＋0。一招多段只计一次。",
     "original": "战斗时使用“战斗”或特技的次数越多，伤害与破防伤害就越高\n提升上限为1.5倍",
     "group": "A：普通增伤，同区加算；B：破防增伤，同区加算",
     "ap": 20,
@@ -11822,7 +12593,7 @@
     "sources": [
       "熟练5"
     ],
-    "description": "“战斗”与特技的伤害与破防伤害提升30%",
+    "description": "仅角色平A/指定特技名单的当前招式，获得普通伤害A＋30%、破防B＋30%。明镜、位移、强行分离不适用。",
     "original": "“战斗”与特技的伤害与破防伤害提升{Effect1Param1}%",
     "group": "A：普通增伤，同区加算；B：破防增伤，同区加算",
     "ap": 20,
@@ -11995,7 +12766,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "斯考尔",
@@ -12054,7 +12832,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "斯考尔",
@@ -12137,7 +12922,14 @@
         "timing": "DamageCalculation",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "斯考尔",
@@ -12220,7 +13012,14 @@
         "timing": "None",
         "turns": 2
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "斯考尔",
@@ -12303,7 +13102,14 @@
         "timing": "DamageCalculation",
         "turns": -1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "斯考尔",
@@ -12362,7 +13168,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "斯考尔",
@@ -12421,7 +13234,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "斯考尔",
@@ -12504,7 +13324,14 @@
         "timing": "None",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "斯考尔",
@@ -12587,7 +13414,14 @@
         "timing": "DamageCalculation",
         "turns": -1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "斯考尔",
@@ -12646,7 +13480,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "斯考尔",
@@ -12705,7 +13546,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "斯考尔",
@@ -12788,7 +13636,14 @@
         "timing": "None",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "斯考尔",
@@ -12871,7 +13726,14 @@
         "timing": "BeginDmgCalc",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "斯考尔",
@@ -12930,7 +13792,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "斯考尔",
@@ -13013,7 +13882,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "吉坦",
@@ -13708,7 +14584,14 @@
         "timing": "DamageCalculationOnBreak",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "吉坦",
@@ -13791,7 +14674,14 @@
         "timing": "None",
         "turns": -1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "吉坦",
@@ -13874,7 +14764,14 @@
         "timing": "None",
         "turns": -1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "吉坦",
@@ -13957,7 +14854,14 @@
         "timing": "DamageCalculationOnBreak",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "吉坦",
@@ -14040,7 +14944,14 @@
         "timing": "None",
         "turns": -1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "吉坦",
@@ -14123,7 +15034,14 @@
         "timing": "DamageCalculationOnBreak",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "吉坦",
@@ -14206,7 +15124,14 @@
         "timing": "None",
         "turns": -1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "吉坦",
@@ -14289,7 +15214,14 @@
         "timing": "DamageCalculationOnBreak",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "吉坦",
@@ -14372,7 +15304,14 @@
         "timing": "AddEffect",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "吉坦",
@@ -14455,7 +15394,14 @@
         "timing": "AddEffect",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "吉坦",
@@ -14653,7 +15599,14 @@
         "timing": "ActionBegin",
         "turns": 2
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "吉坦",
@@ -14736,7 +15689,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "提达",
@@ -15329,7 +16289,14 @@
         "timing": "DamageCalculation",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "提达",
@@ -15388,7 +16355,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "提达",
@@ -15447,7 +16421,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "提达",
@@ -15506,7 +16487,14 @@
     ],
     "accuracy": 100,
     "critical": 0,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "提达",
@@ -15565,7 +16553,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "提达",
@@ -15624,7 +16619,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "提达",
@@ -15707,7 +16709,14 @@
         "timing": "DamageCalculation",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "提达",
@@ -15766,7 +16775,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "提达",
@@ -15849,7 +16865,14 @@
         "timing": "DamageCalculation",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "提达",
@@ -15908,7 +16931,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "提达",
@@ -15967,7 +16997,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "提达",
@@ -16050,7 +17087,14 @@
         "timing": "None",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "提达",
@@ -16133,7 +17177,14 @@
         "timing": "None",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "提达",
@@ -16239,7 +17290,14 @@
         "timing": "None",
         "turns": 2
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "提达",
@@ -16345,7 +17403,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "提达",
@@ -16451,7 +17516,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "香托托",
@@ -17043,7 +18115,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "香托托",
@@ -17102,7 +18181,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "香托托",
@@ -17185,7 +18271,14 @@
         "timing": "None",
         "turns": -1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "MPAbsorb",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "香托托",
@@ -17268,7 +18361,14 @@
         "timing": "DamageCalculation",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "香托托",
@@ -17351,7 +18451,14 @@
         "timing": "None",
         "turns": 2
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "香托托",
@@ -17410,7 +18517,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "香托托",
@@ -17469,7 +18583,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "香托托",
@@ -17552,7 +18673,14 @@
         "timing": "None",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "香托托",
@@ -17635,7 +18763,14 @@
         "timing": "ActionBegin",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "香托托",
@@ -17694,7 +18829,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "香托托",
@@ -17753,7 +18895,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "香托托",
@@ -17836,7 +18985,14 @@
         "timing": "None",
         "turns": -1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "香托托",
@@ -17895,7 +19051,14 @@
     ],
     "accuracy": 500,
     "critical": 1,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "香托托",
@@ -17954,7 +19117,14 @@
     ],
     "accuracy": 500,
     "critical": 1,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "香托托",
@@ -18013,7 +19183,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "香托托",
@@ -18119,7 +19296,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "梵",
@@ -18711,7 +19895,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "梵",
@@ -18770,7 +19961,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "梵",
@@ -18853,7 +20051,14 @@
         "timing": "AddEffect",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "梵",
@@ -18936,7 +20141,14 @@
         "timing": "None",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "梵",
@@ -19019,7 +20231,14 @@
         "timing": "Break",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "梵",
@@ -19078,7 +20297,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "梵",
@@ -19137,7 +20363,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "梵",
@@ -19220,7 +20453,14 @@
         "timing": "ActionBegin",
         "turns": 2
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "梵",
@@ -19303,7 +20543,14 @@
         "timing": "Break",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "梵",
@@ -19362,7 +20609,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "梵",
@@ -19421,7 +20675,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "梵",
@@ -19504,7 +20765,14 @@
         "timing": "ActionBegin",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "梵",
@@ -19587,7 +20855,14 @@
         "timing": "AddEffect",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "梵",
@@ -19646,7 +20921,14 @@
     ],
     "accuracy": 100,
     "critical": 1,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "ThrowMoney",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "梵",
@@ -19752,7 +21034,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "雷光",
@@ -20395,7 +21684,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "雷光",
@@ -20454,7 +21750,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "雷光",
@@ -20537,7 +21840,14 @@
         "timing": "AddEffect",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "雷光",
@@ -20620,7 +21930,14 @@
         "timing": "ActionBegin",
         "turns": 2
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "雷光",
@@ -20679,7 +21996,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "雷光",
@@ -20738,7 +22062,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "雷光",
@@ -20821,7 +22152,14 @@
         "timing": "None",
         "turns": -1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "雷光",
@@ -20904,7 +22242,14 @@
         "timing": "ActionBegin",
         "turns": 2
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "雷光",
@@ -20963,7 +22308,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "雷光",
@@ -21022,7 +22374,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "雷光",
@@ -21105,7 +22464,14 @@
         "timing": "None",
         "turns": -1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "MPAbsorb",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "雷光",
@@ -21188,7 +22554,14 @@
         "timing": "AddEffect",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "雷光",
@@ -21271,7 +22644,14 @@
         "timing": "ActionBegin",
         "turns": 2
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "雷光",
@@ -21377,7 +22757,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "雅·修特拉",
@@ -22043,7 +23430,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "雅·修特拉",
@@ -22102,7 +23496,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "雅·修特拉",
@@ -22161,7 +23562,14 @@
     ],
     "accuracy": 100,
     "critical": 0,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "雅·修特拉",
@@ -22220,7 +23628,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "雅·修特拉",
@@ -22279,7 +23694,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "雅·修特拉",
@@ -22338,7 +23760,14 @@
     ],
     "accuracy": 100,
     "critical": 0,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "雅·修特拉",
@@ -22421,7 +23850,14 @@
         "timing": "None",
         "turns": 2
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "雅·修特拉",
@@ -22504,7 +23940,14 @@
         "timing": "None",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "雅·修特拉",
@@ -22563,7 +24006,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "雅·修特拉",
@@ -22622,7 +24072,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "雅·修特拉",
@@ -22681,7 +24138,14 @@
     ],
     "accuracy": 100,
     "critical": 0,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "雅·修特拉",
@@ -22740,7 +24204,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "雅·修特拉",
@@ -22823,7 +24294,14 @@
         "timing": "None",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "雅·修特拉",
@@ -22952,7 +24430,14 @@
         "timing": "None",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "雅·修特拉",
@@ -23058,7 +24543,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "诺克提斯",
@@ -23831,7 +25323,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "诺克提斯",
@@ -23890,7 +25389,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "诺克提斯",
@@ -23973,7 +25479,14 @@
         "timing": "SkillEnd",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "诺克提斯",
@@ -24032,7 +25545,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "诺克提斯",
@@ -24091,7 +25611,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "诺克提斯",
@@ -24174,7 +25701,14 @@
         "timing": "SkillEnd",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "诺克提斯",
@@ -24233,7 +25767,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "诺克提斯",
@@ -24292,7 +25833,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "诺克提斯",
@@ -24375,7 +25923,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "诺克提斯",
@@ -24458,7 +26013,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "克莱夫",
@@ -25152,7 +26714,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "克莱夫",
@@ -25211,7 +26780,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "克莱夫",
@@ -25294,7 +26870,14 @@
         "timing": "BreakDmgCalculation",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "克莱夫",
@@ -25353,7 +26936,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "克莱夫",
@@ -25412,7 +27002,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "克莱夫",
@@ -25471,7 +27068,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "克莱夫",
@@ -25530,7 +27134,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "克莱夫",
@@ -25589,7 +27200,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "克莱夫",
@@ -25672,7 +27290,14 @@
         "timing": "None",
         "turns": 2
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "克莱夫",
@@ -25755,7 +27380,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "萨菲罗斯",
@@ -26193,7 +27825,7 @@
     "sources": [
       "熟练1"
     ],
-    "description": "“战斗”及特技的伤害提升50%。补充：符合条件的“战斗”及特技，其基础威力倍率增加50%（P区）。与A区相乘，但与同在P区的“结合袭击”加成先相加；不是所有增伤都与它逐条相乘。",
+    "description": "仅角色平A/指定特技名单的当前招式，基础威力P＋50%；明镜、位移、强行分离不适用。与同区加成先加，再与A区相乘。",
     "original": "“战斗”及特技的伤害提升{Effect1Param1}%",
     "group": "P：基础威力倍率加算",
     "ap": 20,
@@ -26441,7 +28073,14 @@
         "timing": "ActionBegin",
         "turns": 2
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "萨菲罗斯",
@@ -26500,7 +28139,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "萨菲罗斯",
@@ -26559,7 +28205,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "萨菲罗斯",
@@ -26618,7 +28271,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "萨菲罗斯",
@@ -26677,7 +28337,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "萨菲罗斯",
@@ -26736,7 +28403,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "萨菲罗斯",
@@ -26842,7 +28516,14 @@
         "timing": "None",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "萨菲罗斯",
@@ -26901,7 +28582,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "萨菲罗斯",
@@ -26960,7 +28648,14 @@
     ],
     "accuracy": 100,
     "critical": 0,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "萨菲罗斯",
@@ -27019,7 +28714,14 @@
     ],
     "accuracy": 500,
     "critical": 1,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "萨菲罗斯",
@@ -27148,7 +28850,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "萨菲罗斯",
@@ -27231,7 +28940,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "特伦",
@@ -27823,7 +29539,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "特伦",
@@ -27882,7 +29605,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "特伦",
@@ -27941,7 +29671,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "特伦",
@@ -28024,7 +29761,14 @@
         "timing": "None",
         "turns": 2
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "特伦",
@@ -28083,7 +29827,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "特伦",
@@ -28142,7 +29893,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "特伦",
@@ -28201,7 +29959,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "特伦",
@@ -28284,7 +30049,14 @@
         "timing": "ActionBegin",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "特伦",
@@ -28343,7 +30115,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "特伦",
@@ -28402,7 +30181,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "特伦",
@@ -28461,7 +30247,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "特伦",
@@ -28544,7 +30337,14 @@
         "timing": "AddEffect",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "特伦",
@@ -28627,7 +30427,14 @@
         "timing": "ActionBegin",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "特伦",
@@ -28710,7 +30517,14 @@
         "timing": "ActionBegin",
         "turns": 2
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "特伦",
@@ -28793,7 +30607,14 @@
         "timing": "BreakDmgCalculation",
         "turns": 2
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "特伦",
@@ -28876,7 +30697,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "莉亚",
@@ -29491,7 +31319,14 @@
     ],
     "accuracy": 100,
     "critical": 0,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "莉亚",
@@ -29574,7 +31409,14 @@
         "timing": "None",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "莉亚",
@@ -29657,7 +31499,14 @@
         "timing": "AddEffect",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "莉亚",
@@ -29716,7 +31565,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "莉亚",
@@ -29775,7 +31631,14 @@
     ],
     "accuracy": 100,
     "critical": 0,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "莉亚",
@@ -29858,7 +31721,14 @@
         "timing": "None",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "莉亚",
@@ -29941,7 +31811,14 @@
         "timing": "AddEffect",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "莉亚",
@@ -30000,7 +31877,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "莉亚",
@@ -30059,7 +31943,14 @@
     ],
     "accuracy": 100,
     "critical": 0,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "莉亚",
@@ -30142,7 +32033,14 @@
         "timing": "AddEffect",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "莉亚",
@@ -30201,7 +32099,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "莉亚",
@@ -30284,7 +32189,14 @@
         "timing": "Reraise",
         "turns": -1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "莉亚",
@@ -30367,7 +32279,14 @@
         "timing": "None",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "莉亚",
@@ -30426,7 +32345,14 @@
     ],
     "accuracy": 100,
     "critical": 0,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "TargetMaxHPRatio",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "莉亚",
@@ -30509,7 +32435,18 @@
         "timing": "AddEffect",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [
+      "FoundSkillInHierarchy",
+      "ExPhase",
+      "FoundSkillInHierarchy"
+    ],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "莉亚",
@@ -30638,7 +32575,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "艾美利亚",
@@ -31304,7 +33248,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "艾美利亚",
@@ -31363,7 +33314,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "艾美利亚",
@@ -31446,7 +33404,14 @@
         "timing": "None",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "艾美利亚",
@@ -31505,7 +33470,14 @@
     ],
     "accuracy": 85,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "艾美利亚",
@@ -31564,7 +33536,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "艾美利亚",
@@ -31623,7 +33602,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "艾美利亚",
@@ -31706,7 +33692,14 @@
         "timing": "None",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "艾美利亚",
@@ -31765,7 +33758,14 @@
     ],
     "accuracy": 85,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "艾美利亚",
@@ -31824,7 +33824,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "艾美利亚",
@@ -31883,7 +33890,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "艾美利亚",
@@ -31966,7 +33980,14 @@
         "timing": "None",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "艾美利亚",
@@ -32049,7 +34070,14 @@
         "timing": "None",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "艾美利亚",
@@ -32132,7 +34160,14 @@
         "timing": "None",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "艾美利亚",
@@ -32215,7 +34250,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "卡米尔",
@@ -32932,7 +34974,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "卡米尔",
@@ -32991,7 +35040,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "卡米尔",
@@ -33074,7 +35130,14 @@
         "timing": "DamageCalculation",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "卡米尔",
@@ -33157,7 +35220,14 @@
         "timing": "DamageCalculation",
         "turns": -1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "卡米尔",
@@ -33216,7 +35286,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "卡米尔",
@@ -33275,7 +35352,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "卡米尔",
@@ -33358,7 +35442,14 @@
         "timing": "None",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "卡米尔",
@@ -33441,7 +35532,14 @@
         "timing": "DamageCalculation",
         "turns": -1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "卡米尔",
@@ -33500,7 +35598,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "卡米尔",
@@ -33559,7 +35664,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "卡米尔",
@@ -33618,7 +35730,14 @@
     ],
     "accuracy": 100,
     "critical": 1,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "卡米尔",
@@ -33701,7 +35820,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "维鲁赫鲁姆",
@@ -34459,7 +36585,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "维鲁赫鲁姆",
@@ -34518,7 +36651,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "维鲁赫鲁姆",
@@ -34601,7 +36741,14 @@
         "timing": "None",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "维鲁赫鲁姆",
@@ -34684,7 +36831,14 @@
         "timing": "DamageCalculation",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "维鲁赫鲁姆",
@@ -34743,7 +36897,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "维鲁赫鲁姆",
@@ -34802,7 +36963,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "维鲁赫鲁姆",
@@ -34885,7 +37053,14 @@
         "timing": "DamageCalculation",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "维鲁赫鲁姆",
@@ -34991,7 +37166,14 @@
         "timing": "None",
         "turns": 2
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "维鲁赫鲁姆",
@@ -35050,7 +37232,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "维鲁赫鲁姆",
@@ -35109,7 +37298,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "维鲁赫鲁姆",
@@ -35192,7 +37388,14 @@
         "timing": "None",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "维鲁赫鲁姆",
@@ -35275,7 +37478,14 @@
         "timing": "AddEffect",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "维鲁赫鲁姆",
@@ -35404,7 +37614,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "维鲁赫鲁姆",
@@ -35510,7 +37727,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "艾琳",
@@ -36176,7 +38400,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "艾琳",
@@ -36235,7 +38466,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "艾琳",
@@ -36318,7 +38556,14 @@
         "timing": "None",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "艾琳",
@@ -36401,7 +38646,14 @@
         "timing": "None",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "艾琳",
@@ -36484,7 +38736,14 @@
         "timing": "AddEffect",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "艾琳",
@@ -36590,7 +38849,14 @@
         "timing": "None",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "艾琳",
@@ -36649,7 +38915,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "艾琳",
@@ -36708,7 +38981,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "艾琳",
@@ -36791,7 +39071,14 @@
         "timing": "None",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "艾琳",
@@ -36897,7 +39184,14 @@
         "timing": "None",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "艾琳",
@@ -36956,7 +39250,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "艾琳",
@@ -37015,7 +39316,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "艾琳",
@@ -37098,7 +39406,14 @@
         "timing": "None",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "艾琳",
@@ -37181,7 +39496,14 @@
         "timing": "None",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "艾琳",
@@ -37287,7 +39609,16 @@
         "timing": "AddEffect",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [
+      "FoundSkillInHierarchy"
+    ],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "艾琳",
@@ -37370,7 +39701,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "夏洛特",
@@ -38179,7 +40517,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "夏洛特",
@@ -38238,7 +40583,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "夏洛特",
@@ -38321,7 +40673,14 @@
         "timing": "None",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "夏洛特",
@@ -38404,7 +40763,14 @@
         "timing": "DamageCalculation",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "夏洛特",
@@ -38463,7 +40829,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "夏洛特",
@@ -38522,7 +40895,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "夏洛特",
@@ -38605,7 +40985,14 @@
         "timing": "None",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "夏洛特",
@@ -38688,7 +41075,14 @@
         "timing": "None",
         "turns": 2
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "夏洛特",
@@ -38747,7 +41141,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "夏洛特",
@@ -38806,7 +41207,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Physic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "夏洛特",
@@ -38889,7 +41297,14 @@
         "timing": "None",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "夏洛特",
@@ -38972,7 +41387,14 @@
         "timing": "None",
         "turns": -1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "夏洛特",
@@ -39101,7 +41523,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "维多利亚",
@@ -39642,7 +42071,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "维多利亚",
@@ -39701,7 +42137,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "维多利亚",
@@ -39760,7 +42203,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "维多利亚",
@@ -39843,7 +42293,14 @@
         "timing": "None",
         "turns": 2
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "维多利亚",
@@ -39926,7 +42383,14 @@
         "timing": "ActionBegin",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "维多利亚",
@@ -39985,7 +42449,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "维多利亚",
@@ -40044,7 +42515,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "维多利亚",
@@ -40103,7 +42581,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "维多利亚",
@@ -40186,7 +42671,14 @@
         "timing": "ActionBegin",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "维多利亚",
@@ -40245,7 +42737,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "维多利亚",
@@ -40304,7 +42803,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "维多利亚",
@@ -40363,7 +42869,14 @@
     ],
     "accuracy": 100,
     "critical": 2,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "维多利亚",
@@ -40422,7 +42935,14 @@
     ],
     "accuracy": 100,
     "critical": 3,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "维多利亚",
@@ -40481,7 +43001,14 @@
     ],
     "accuracy": 500,
     "critical": 0,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "TargetCurHPRatio",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "维多利亚",
@@ -40564,7 +43091,14 @@
         "timing": "None",
         "turns": -1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "维多利亚",
@@ -40623,7 +43157,14 @@
     ],
     "accuracy": 500,
     "critical": 0,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "TargetCurHPRatio",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "维多利亚",
@@ -40682,7 +43223,14 @@
     ],
     "accuracy": 500,
     "critical": 1,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": true,
+    "damageAction": true
   },
   {
     "vision": "维多利亚",
@@ -40765,7 +43313,14 @@
         "timing": "SkillEndOnTarget",
         "turns": -1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "维多利亚",
@@ -40894,7 +43449,14 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "DPS",
+    "comparable": false,
+    "damageAction": true
   },
   {
     "vision": "彩花",
@@ -41509,7 +44071,14 @@
     ],
     "accuracy": 100,
     "critical": 0,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "彩花",
@@ -41592,7 +44161,14 @@
         "timing": "AddEffect",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "彩花",
@@ -41675,7 +44251,14 @@
         "timing": "AddEffect",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "彩花",
@@ -41758,7 +44341,14 @@
         "timing": "AddEffect",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "彩花",
@@ -41841,7 +44431,14 @@
         "timing": "None",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "彩花",
@@ -41924,7 +44521,14 @@
         "timing": "AddEffect",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "彩花",
@@ -41983,7 +44587,14 @@
     ],
     "accuracy": 100,
     "critical": 0,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "彩花",
@@ -42066,7 +44677,14 @@
         "timing": "AddEffect",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "彩花",
@@ -42149,7 +44767,14 @@
         "timing": "None",
         "turns": 5
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "彩花",
@@ -42232,7 +44857,14 @@
         "timing": "ActionBegin",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "彩花",
@@ -42291,7 +44923,14 @@
     ],
     "accuracy": 100,
     "critical": 0,
-    "effects": []
+    "effects": [],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "彩花",
@@ -42374,7 +45013,14 @@
         "timing": "ActionBegin",
         "turns": 3
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "彩花",
@@ -42457,7 +45103,14 @@
         "timing": "AddEffect",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "彩花",
@@ -42540,7 +45193,14 @@
         "timing": "AddEffect",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "彩花",
@@ -42623,7 +45283,14 @@
         "timing": "Reraise",
         "turns": -1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "彩花",
@@ -42706,7 +45373,14 @@
         "timing": "AddEffect",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "彩花",
@@ -42789,7 +45463,14 @@
         "timing": "SomeoneActionBegin",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "MP",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "None",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   },
   {
     "vision": "彩花",
@@ -42918,6 +45599,13 @@
         "timing": "None",
         "turns": 1
       }
-    ]
+    ],
+    "costType": "共鸣槽",
+    "extraCosts": [],
+    "locks": [],
+    "calcType": "Magic",
+    "role": "辅助/特殊",
+    "comparable": false,
+    "damageAction": false
   }
 ]

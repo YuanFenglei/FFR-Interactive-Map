@@ -15,7 +15,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--zip', action='store_true', help='also build the downloadable offline bundle')
     args = parser.parse_args()
-    hub = {key: json.loads(read('data/' + key + '.json')) for key in ['skills', 'rankings', 'visions', 'builds']}
+    hub = {key: json.loads(read('data/' + key + '.json')) for key in ['skills', 'rankings', 'visions', 'builds', 'characters', 'character-skills']}
     hub['portraits'] = {p.stem: 'data:image/png;base64,' + base64.b64encode(p.read_bytes()).decode() for p in sorted((ROOT/'assets/portraits').glob('*.png'))}
     template = read('source/map.template.html')
     template = template.replace('<title>共鸣 · 收集地图</title>', '<title>FFR 共鸣手册 · 地图、技能与攻略</title>')
@@ -25,6 +25,7 @@ def main():
     start, end = template.index('<main>'), template.index('</main>')+len('</main>')
     map_panel = '<section id="page-map">'+template[start:end]+'</section>'
     template = template[:start]+read('source/hub.template.html').replace('<!--MAP-->', map_panel)+template[end:]
+    template = template.replace('<footer class="hub-footer">', read('source/active.template.html')+'<footer class="hub-footer">')
     # The main navigation stays above the per-map status notice.
     nav = re.search(r'<nav class="hub-nav".*?</nav>', template, re.S).group()
     template = template.replace(nav, '').replace('</header>', '</header>'+nav, 1)
@@ -32,7 +33,7 @@ def main():
     for key, value in values.items():
         template = template.replace('/*'+key+'*/', value)
     data = json.dumps(hub, ensure_ascii=False, separators=(',', ':')).replace('<', '\\u003c')
-    template = template.replace('</body>', '<script>const HUB='+data+';</script><script>'+read('source/hub.js')+'</script></body>')
+    template = template.replace('</body>', '<script>const HUB='+data+';</script><script>'+read('source/hub.js')+'</script><script>'+read('source/active.js')+'</script></body>')
     (ROOT/'index.html').write_text(template, encoding='utf-8', newline='\n')
     if args.zip:
         with zipfile.ZipFile(ROOT/'FFR共鸣手册.zip', 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as z:

@@ -1,0 +1,12 @@
+<section id="page-active" class="hub-page" hidden aria-labelledby="active-heading">
+  <div class="page-intro"><div><div class="eyebrow">ACTION / MP / ROLE</div><h2 id="active-heading">能打几次，<em>比单次威力更重要。</em></h2><p>8名角色自身技能 × 当前主幻兵 × 可继承技能。DPS与辅助分别查看；跨池同ID只计一次。</p></div></div>
+  <div class="zone-grid"><div><b>自身</b><span>角色已解锁技能</span><small>免费占位 · 等级/剧情/资源限制</small></div><div><b>幻兵</b><span>已取得觉醒与熟练</span><small>主幻兵位置 · 不重复占继承格</small></div><div><b>技能格</b><span>跨幻兵熟练候选</span><small>AP＋格数 · 主动和被动共同竞争</small></div><div><b>分职责</b><span>DPS / 辅助</span><small>伤害破防 / 治疗保护与支援</small></div></div>
+  <div class="control-panel"><div class="filter-row"><label>角色<select id="active-character"></select></label><label>装备幻兵<select id="active-vision"></select></label><label>讨论职责<select id="active-role"><option value="DPS">DPS与破防</option><option value="support">辅助与准备</option></select></label><label>技能来源<select id="active-pool"><option value="">三个池子</option value="character">角色自身</option><option value="vision">当前幻兵</option><option value="inherit">跨幻兵继承候选</option></select></label><label class="grow">查找技能<input id="active-query" type="search" placeholder="技能、效果或来源"></label></div>
+    <div class="filter-row" style="margin-top:18px"><label>当前MP<input id="active-mp" type="number" min="0" max="9999" step="1" value="350"></label><label>预留MP<input id="active-reserve" type="number" min="0" max="9999" step="1" value="60"></label><label>计划执行次数<input id="active-turns" type="number" min="1" max="100" step="1" value="6"></label></div>
+  </div>
+  <p id="active-character-note" class="callout"></p>
+  <p class="reading-note">费用压力按原始MP、无回蓝、反复执行同一技能计算，表示MP能否支持计划，不是可连续施放的保证。未自动套用魔力增幅、半耗、特殊资源、补给动作或MASTER；已有这些效果时须按实际费用重算。极限技和最终战特殊技能单列，不能当零成本日常招式。此页不自动装备继承候选；主幻兵已取得、熟练已学会是前提。被动仍在技能速查中查询。</p>
+  <div id="active-status" class="section-meta" role="status"></div>
+  <div class="table-wrap"><table class="data-table"><thead><tr><th>技能</th><th>三个池子的来源</th><th>原始费用</th><th>威力 / 破防</th><th>同用途效率参考</th><th>MP压力</th><th>效果与条件</th></tr></thead><tbody id="active-rows"></tbody></table></div>
+  <details class="formula"><summary>为什么15蓝与44蓝不能只按威力排序</summary><p>烈炎15蓝、威力33；爆炎44蓝、威力55。高阶耗蓝约2.93倍，原始威力约1.67倍。350蓝留60蓝，只够19发烈炎或6发爆炎。3次短战高阶容易兑现；10次窗口连续用高阶会缺4次，需改招或补给。魔力增幅后爆炎66蓝，同一预算只够4发；蒂娜觉醒4等费用修正会改变结论。</p><p>辅助不参与威力效率排序：治疗看有效恢复与救援次数，保护看危险窗口，增益弱化看覆盖与维护，行动支援扣除施放者原本可做的事。自我增益计入DPS准备成本。伤害附带弱化时，分别评估伤害和弱化，不重复计收益。</p></details>
+</section>
